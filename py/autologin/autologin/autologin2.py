@@ -1,6 +1,6 @@
 import requests
 
-post_url='http://172.20.3.100/webauth.do?wlanacip=172.16.1.82&wlanacname=GXSTNU-BRAS&wlanuserip=172.17.235.41&mac=ac:75:1d:7d:ee:02&vlan=0&url=http://1.1.1.1'
+post_url='http://172.20.3.100/webauth.do?wlanacip=172.16.1.82&wlanacname=GXSTNU-BRAS&wlanuserip=（替换成你获取的内网ip地址）&mac=ac:75:1d:7d:ee:02&vlan=0&url=http://1.1.1.1'
 data={
         'loginType': '',
         'auth_type': 0,
